@@ -13,7 +13,7 @@ function SelectUser() {
         return (
           <li 
             key={keyId}
-            className="w-[300px] h-[64px] rounded-[10px] bg-inputYellow hover:bg-lionYellow hover:cursor-pointer" >
+            className="w-[300px] h-[64px] rounded-[10px] bg-inputYellow hover:bg-lionYellow hover:cursor-pointer text-3xl" >
               <GoToEnvelope name={name} keyId={keyId}/>
           </li>
         )
